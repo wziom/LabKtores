@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tmdb_groupProjects">
+        <item>Bardzo ciężki</item>
+        <item>Na bakier z deadlinem</item>
+        <item>Jak nie wiecie o co chodzi to o co chodzi?</item>
+    </string-array>
+</resources>

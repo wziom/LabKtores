@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NimaLetko</string>
+    <string name="buttonList_name">Lista</string>
+    <string name="studentsListHeader">Lista studentów</string>
+</resources>
