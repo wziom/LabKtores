@@ -19,7 +19,7 @@ public final class ProjectGroupTable {
         StringBuilder sb = new StringBuilder();
         sb.append("CREATE TABLE " + ProjectGroupTable.TABLE_NAME + " (");
         sb.append(BaseColumns._ID + " LONG PRIMARY KEY, ");
-        sb.append(ProjectGroupColumns.NAME + " TEXT NOT NULL, ");
+        sb.append(ProjectGroupColumns.NAME + " TEXT NOT NULL ");
         sb.append(");");
         db.execSQL(sb.toString());
     }

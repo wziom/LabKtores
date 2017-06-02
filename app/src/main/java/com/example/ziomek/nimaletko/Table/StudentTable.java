@@ -24,7 +24,7 @@ public final class StudentTable {
         sb.append(StudentColumns.FIRSTNAME + " TEXT NOT NULL, ");
         sb.append(StudentColumns.LASTNAME + " TEXT NOT NULL, ");
         sb.append(StudentColumns.AGE + " INTEGER NOT NULL, ");
-        sb.append(StudentColumns.ALBUM_NUMBER + " INTEGER UNIQUE NOT NULL, ");
+        sb.append(StudentColumns.ALBUM_NUMBER + " INTEGER UNIQUE NOT NULL ");
         sb.append(");");
         db.execSQL(sb.toString());
     }
